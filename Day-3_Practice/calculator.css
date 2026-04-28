@@ -1,0 +1,38 @@
+
+.border{
+    /* border: 1px solid black; */
+    height: 800px;
+    width: 500px;
+    /* margin-left: 500px; */
+}
+
+.container{
+    margin-top: -90px;
+    height: 800px;
+    width: 400px;
+    margin-left: 50px;
+    background-color: rgb(125, 122, 122);
+}
+.screen{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(193, 243, 191);
+    margin-top: 100px;
+    border-radius: 10%;
+}
+.btns{
+    height: 220px;
+    width: 100px;
+    margin-top: 200px;
+    padding: 100px;
+    padding-right: 200px;
+    padding-bottom: 200px;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    height: 400px;
+    justify-content:center;
+    padding-left: 100px;
+    margin-top: 50px;
+}
